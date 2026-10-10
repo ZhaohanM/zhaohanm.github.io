@@ -4,9 +4,9 @@ Prepared on 9 October 2026. This file records the sources and editorial decision
 
 ## Primary personal source
 
-The user-provided CV supplies the seven-publication selection, complete author lists, education, research appointments, supervisor links, research interests, five funding and honour entries, community contribution, and professional service. The original CV is not copied into the website.
+The user-provided CV supplies the seven-publication selection, complete author lists, education, research appointments, supervisor links, research interests, five funding and honour entries, community contribution, and professional service. At the owner's explicit request, the original CV is available unchanged through the Download CV button.
 
-Personal telephone numbers and financial amounts are omitted. The current visiting appointment's February 2027 end is labelled as planned; the PhD's June 2027 completion is labelled as expected. EMNLP 2026 volunteering is omitted because the event had not yet occurred when the site was prepared. No talks, tutorials, awards, education dates, or roles are invented.
+Personal telephone numbers and financial amounts are omitted from the HTML profile; the downloadable PDF remains unchanged. The current visiting appointment's February 2027 end is labelled as planned; the PhD's June 2027 completion is labelled as expected. EMNLP 2026 volunteering is omitted because the event had not yet occurred when the site was prepared. No talks, tutorials, awards, education dates, or roles are invented.
 
 ## Public profile sources
 

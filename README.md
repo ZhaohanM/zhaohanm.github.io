@@ -7,6 +7,7 @@ A lightweight academic homepage for https://zhaohanm.github.io/, adapted to the 
 - `content.html`: biography, research interests, news, publications, experience, education, honors and service.
 - `template.html`: sidebar, social links, navigation, page metadata and last-updated date.
 - `assets/avatar.png`: profile photograph.
+- `assets/Zhaohan_Meng_CV.pdf`: downloadable CV; replace this file when the CV is updated.
 - `assets/styles.css`: desktop and mobile styling.
 
 After making changes, generate the published files:
