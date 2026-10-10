@@ -53,6 +53,9 @@ section + section { margin-top: 32px; }
 p { margin: 0 0 14px; }
 h2 { border-bottom: 1px solid var(--line); color: #252b30; font: 500 24px/1.4 Georgia, "Times New Roman", serif; letter-spacing: -.25px; padding-bottom: 9px; margin: 0 0 15px; }
 #about-me p { line-height: 1.75; }
+.personal-note { display: inline-block; max-width: 100%; color: #536053; font: italic 500 16px/1.75 Georgia, "Times New Roman", serif; }
+.hobby { display: inline-flex; align-items: baseline; gap: 4px; white-space: nowrap; }
+.hobby svg { flex: none; align-self: center; width: 17px; height: 17px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
 h3 { font-size: 16px; margin: 20px 0 8px; }
 ul { padding-left: 29px; margin: 8px 0 16px; }
 li { padding-left: 1px; margin-bottom: 8px; }
