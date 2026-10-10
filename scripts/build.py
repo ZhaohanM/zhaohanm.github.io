@@ -26,7 +26,7 @@ def main():
     content = (ROOT / "content.html").read_text()
     assert template.count("<!-- CONTENT -->") == 1
     page = template.replace("<!-- CONTENT -->", content)
-    for asset in ("styles.css", "site.js"):
+    for asset in ("styles.css", "site.js", "avatar.png"):
         version = hashlib.sha256((ROOT / "assets" / asset).read_bytes()).hexdigest()[:12]
         page = page.replace(f'assets/{asset}"', f'assets/{asset}?v={version}"')
     checker = CheckPage()

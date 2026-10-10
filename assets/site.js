@@ -44,3 +44,32 @@ window.addEventListener('scroll', () => {
   if (!scheduled) { scheduled = true; requestAnimationFrame(updateActiveSection); }
 }, { passive: true });
 updateActiveSection();
+
+const tagline = document.querySelector('.research-tagline');
+const motionPreference = window.matchMedia('(prefers-reduced-motion: reduce)');
+if (tagline && !motionPreference.matches) {
+  const phrase = tagline.querySelector('.tagline-full').textContent;
+  const animated = tagline.querySelector('.tagline-animated');
+  const duration = 3800;
+  let started;
+  let frame;
+  function finishTyping() {
+    cancelAnimationFrame(frame);
+    tagline.classList.remove('is-typing');
+    animated.textContent = '';
+    motionPreference.removeEventListener('change', handleMotionChange);
+  }
+  function handleMotionChange(event) {
+    if (event.matches) finishTyping();
+  }
+  function typePhrase(now) {
+    started ??= now;
+    const progress = Math.min((now - started) / duration, 1);
+    animated.textContent = phrase.slice(0, Math.floor(progress * phrase.length));
+    if (progress < 1) frame = requestAnimationFrame(typePhrase);
+    else finishTyping();
+  }
+  tagline.classList.add('is-typing');
+  motionPreference.addEventListener('change', handleMotionChange);
+  frame = requestAnimationFrame(typePhrase);
+}

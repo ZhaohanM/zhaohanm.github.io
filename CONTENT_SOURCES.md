@@ -15,17 +15,18 @@ Personal telephone numbers are omitted from the HTML profile; the downloadable P
 - All four research/teaching appointments include their dates and named supervisors or lab leads; both visit funding sources are restored.
 - All five funding/honour entries now include the CV's amounts and available links.
 - All five conference-reviewing entries, the journal-reviewing entry, and both volunteering entries are present. Full conference names are expanded to match the CV.
-- The four Technical Skills categories are reproduced in full.
+- Technical Skills is intentionally omitted from the homepage at the user's explicit request on 10 October 2026; it is not a missing item from the audit.
+- Mentoring of Kaiyan Ling, an undergraduate Computer Science student at Massachusetts Institute of Technology (MIT), and the interests in fishing, hiking, and mountaineering were supplied directly by the user on 10 October 2026. No dates, projects, external student profile links, or formal supervisory status are inferred.
 - The Glasgow email from the CV is added alongside the GitHub profile's Harvard email; no identity or affiliation was replaced.
-- The CV remains available unchanged through the download button. Telephone numbers, rankings/impact factors, and the historical 2.5k repository star count are not repeated in the HTML; these are not omitted roles, qualifications, publications or skills.
+- The CV remains available unchanged through the download button. Telephone numbers, rankings/impact factors, and the historical 2.5k repository star count are not repeated in the HTML; these are not omitted roles, qualifications, or publications.
 
 ## Public profile sources
 
-- [GitHub profile](https://github.com/ZhaohanM): public identity, Glasgow PhD and Harvard visiting affiliation, research interests, and professional links.
+- [GitHub profile](https://github.com/ZhaohanM): public identity, Glasgow PhD and Harvard visiting affiliation, research interests, professional links, and the introductory phrase “AI-native research for scientific discovery.”
 - [University of Glasgow profile](https://www.gla.ac.uk/pgrs/zhaohanmeng/): Glasgow affiliation, biomedical knowledge and language-model research, supervisors, and publication records.
 - [Google Scholar](https://scholar.google.com/citations?hl=en&user=gM9yaCkAAAAJ): profile URL supplied in the CV. No citation metrics are reproduced.
 - [Hugging Face](https://huggingface.co/Zhaohan-Meng): profile URL supplied in the CV.
-- [LinkedIn](https://www.linkedin.com/in/zhaohan-meng-825951279/): profile URL supplied in the CV and GitHub profile.
+- [LinkedIn](https://www.linkedin.com/in/zhaohan-meng-825951279/): profile URL supplied in the CV and GitHub profile. The 800 × 800 profile photograph was saved on 10 October 2026 at the owner's request, preserving its wider shoulder-and-torso framing.
 
 ## Publication verification and differences
 

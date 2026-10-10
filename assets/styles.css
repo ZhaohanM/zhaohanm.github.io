@@ -3,18 +3,19 @@
   --text: #494e52;
   --link: #224b8d;
   --muted: #70777c;
-  --line: #eeeeef;
+  --background: #f0eee6;
+  --line: #dcd9d0;
   --header-height: 55px;
 }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: 80px; }
-body { margin: 0; background: #fff; color: var(--text); font: 15px/1.5 "Trebuchet MS", Helvetica, Arial, sans-serif; }
+body { margin: 0; background: var(--background); color: var(--text); font: 15px/1.5 "Trebuchet MS", Helvetica, Arial, sans-serif; }
 a { color: var(--link); text-underline-offset: 2px; }
 a:hover { color: #142f60; }
 a:focus-visible, button:focus-visible { outline: 2px solid var(--link); outline-offset: 5px; border-radius: 2px; }
 .skip-link { position: fixed; top: -80px; left: 15px; z-index: 30; padding: 10px 16px; background: var(--link); color: #fff; }
 .skip-link:focus { top: 8px; color: #fff; }
-.masthead { position: sticky; top: 0; z-index: 10; min-height: var(--header-height); border-bottom: 1px solid #f0f0f0; background: rgba(255,255,255,.98); }
+.masthead { position: sticky; top: 0; z-index: 10; min-height: var(--header-height); border-bottom: 1px solid var(--line); background: var(--background); }
 .navigation { max-width: 1280px; min-height: var(--header-height); margin: auto; padding: 0 15px; display: flex; align-items: center; gap: 42px; }
 .navigation a { text-decoration: none; color: #565c60; white-space: nowrap; }
 .site-title { font-weight: 700; padding: 15px 0; }
@@ -25,7 +26,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--link); outline-
 .menu-toggle { display: none; }
 .layout { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 45px; max-width: 1280px; margin: 0 auto; padding: 15px 15px 35px; }
 .profile { align-self: start; position: sticky; top: 83px; padding-top: 21px; }
-.avatar { display: block; width: 175px; height: 175px; padding: 5px; border: 1px solid #f1f1f1; border-radius: 50%; object-fit: cover; object-position: center 40%; }
+.avatar { display: block; width: 175px; height: 175px; padding: 5px; border: 1px solid var(--line); border-radius: 50%; object-fit: contain; object-position: center; }
 .profile h1 { font-size: 22px; line-height: 1.25; margin: 13px 0 8px; letter-spacing: -.25px; }
 .profile p { margin: 0 0 18px; }
 .profile .position { line-height: 1.7; margin-bottom: 13px; font-size: 14px; }
@@ -42,6 +43,11 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--link); outline-
 .scholar { transform: rotate(-12deg); }
 .content { min-width: 0; }
 .last-updated { text-align: right; font-size: 12px; color: var(--muted); margin: 0 0 15px; }
+.research-tagline { position: relative; margin: 3px 0 24px; color: #141413; font: italic 600 clamp(23px, 2.5vw, 32px)/1.35 Georgia, "Times New Roman", serif; }
+.tagline-animated { display: none; }
+.is-typing .tagline-full { opacity: 0; }
+.is-typing .tagline-animated { display: block; position: absolute; inset: 0; }
+.is-typing .tagline-animated::after { content: ""; display: inline-block; width: 1.5px; height: .9em; margin-left: 3px; vertical-align: -.06em; background: currentColor; }
 section { scroll-margin-top: 80px; }
 section + section { margin-top: 27px; }
 p { margin: 0 0 14px; }
@@ -97,13 +103,16 @@ li ul { margin: 6px 0 13px; padding-left: 23px; }
   .footer { margin-top: 30px; }
 }
 @media (max-height: 900px) and (min-width: 701px) { .profile { position: static; } }
-@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition: none !important; } }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition: none !important; } .is-typing .tagline-full { opacity: 1; } .is-typing .tagline-animated { display: none; } }
 @media print {
   .masthead, .skip-link, .footer { display: none; }
   .layout { grid-template-columns: 175px minmax(0,1fr); gap: 20px; padding: 0; }
   .profile { position: static; padding: 0; }
   .avatar { width: 125px; height: 125px; }
-  body { font-size: 11px; }
+  body { font-size: 11px; background: #fff; }
+  .research-tagline { font-size: 18px; }
+  .is-typing .tagline-full { opacity: 1; }
+  .is-typing .tagline-animated { display: none; }
   h2 { font-size: 15px; }
   a { color: inherit; }
   .publication { break-inside: avoid; }
