@@ -2,6 +2,7 @@
 from pathlib import Path
 from html.parser import HTMLParser
 import shutil
+import hashlib
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -25,6 +26,9 @@ def main():
     content = (ROOT / "content.html").read_text()
     assert template.count("<!-- CONTENT -->") == 1
     page = template.replace("<!-- CONTENT -->", content)
+    for asset in ("styles.css", "site.js"):
+        version = hashlib.sha256((ROOT / "assets" / asset).read_bytes()).hexdigest()[:12]
+        page = page.replace(f'assets/{asset}"', f'assets/{asset}?v={version}"')
     checker = CheckPage()
     checker.feed(page)
     assert len(checker.ids) == len(set(checker.ids)), "Duplicate section IDs"
