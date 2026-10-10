@@ -27,7 +27,7 @@ document.addEventListener('keydown', event => {
     menu.focus();
   }
 });
-window.matchMedia('(min-width: 981px)').addEventListener('change', closeMenu);
+window.matchMedia('(min-width: 1101px)').addEventListener('change', closeMenu);
 const navLinks = [...links.querySelectorAll('a')];
 const sections = navLinks.map(link => document.getElementById(link.hash.slice(1))).filter(Boolean);
 let scheduled = false;

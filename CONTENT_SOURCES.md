@@ -17,7 +17,7 @@ Personal telephone numbers are omitted from the HTML profile; the downloadable P
 - All five conference-reviewing entries, the journal-reviewing entry, and both volunteering entries are present. Full conference names are expanded to match the CV.
 - Technical Skills is intentionally omitted from the homepage at the user's explicit request on 10 October 2026; it is not a missing item from the audit.
 - Mentoring of Kaiyan Ling, an undergraduate Computer Science student at Massachusetts Institute of Technology (MIT), and the interests in fishing, hiking, and mountaineering were supplied directly by the user on 10 October 2026. No dates, projects, external student profile links, or formal supervisory status are inferred.
-- The Glasgow email from the CV is added alongside the GitHub profile's Harvard email; no identity or affiliation was replaced.
+- Only the Harvard email from the GitHub profile is displayed, following the user’s request to keep a single contact address. The original CV remains unchanged.
 - The CV remains available unchanged through the download button. Telephone numbers, rankings/impact factors, and the historical 2.5k repository star count are not repeated in the HTML; these are not omitted roles, qualifications, or publications.
 
 ## Public profile sources
@@ -46,4 +46,4 @@ The user-provided CV identifies a biomedical paper curation contribution to Awes
 
 ## Biography and timeline
 
-The biography is a concise paraphrase of the user-provided CV and public profiles. The July 2026 news item derives from the CV's stated visiting start date. The thesis wording follows the CV rather than the older research title on the university profile. Supervisor and laboratory links are those embedded in the CV; their names and relationships are not inferred from external affiliations.
+The biography is a single concise paragraph based on the user-provided CV and public profiles. At the user’s request, the repeated research summary was removed; detailed research interests and education remain in their dedicated sections. The July 2026 news item derives from the CV's stated visiting start date. The thesis wording follows the CV rather than the older research title on the university profile. Supervisor and laboratory links are those embedded in the CV; their names and relationships are not inferred from external affiliations.
