@@ -51,3 +51,7 @@ The biography is a single concise paragraph based on the user-provided CV and pu
 ## Visitor map
 
 On 11 October 2026, the owner approved a MapMyVisitors footer widget after being informed that the third-party service processes visitor IP addresses to estimate geographic locations. The owner completed the provider account setup for this homepage. The image embed and counter identifier come from that account's widget generator, with the existing beige background and muted green map colors. The counter is labelled as pageviews, not unique people; locations are approximate. The image loads with the page so that visits are not limited to people who scroll to the footer. The provider's privacy policy is linked next to the map.
+
+## Language versions
+
+On 11 October 2026, the owner requested an English/Chinese language switch. The Chinese version translates the existing verified English content without adding biographical claims. Personal names retain their supplied Romanized spelling; publication titles, author lists, and thesis titles retain their original English. Dates, qualifications, funding amounts, links, and planned/expected timeline labels are preserved. The original downloadable CV and the third-party map image are unchanged.

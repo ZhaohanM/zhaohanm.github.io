@@ -5,11 +5,13 @@ A lightweight academic homepage for https://zhaohanm.github.io/.
 ## Update content
 
 - `content.html`: biography, research interests, news, publications, experience, education, honors, community, mentoring and service.
+- `content.zh.html`: matching Chinese content; keep section IDs, dates and links in sync with the English version.
+- `translations.zh.json`: Chinese navigation, profile, footer and metadata strings.
 - `template.html`: sidebar, social links, navigation, page metadata and last-updated date.
 - `assets/avatar.png`: profile photograph.
 - `assets/Zhaohan_Meng_CV.pdf`: downloadable CV; replace this file when the CV is updated.
 - `assets/styles.css`: desktop and mobile styling.
-- `assets/site.js`: navigation and the introductory text animation.
+- `assets/site.js`: navigation, language switching and the introductory text animation. English is the default; the header button switches the full page and remembers the choice in local browser storage. The original CV PDF and publication titles remain in English.
 - The footer uses the homepage's MapMyVisitors image widget to display pageviews and approximate visitor locations; its embed URL is in `template.html`.
 
 After making changes, generate the published files:

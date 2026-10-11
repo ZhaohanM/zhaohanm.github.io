@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Zhaohan Meng - Homepage</title>
-  <meta name="description" content="Zhaohan Meng, PhD candidate at the University of Glasgow and Visiting Research Scholar at Harvard Medical School. Scientific AI agents, scientific foundation models, and computational biology.">
+  <title data-i18n="page.title">Zhaohan Meng - Homepage</title>
+  <meta data-i18n-content="page.description" name="description" content="Zhaohan Meng, PhD candidate at the University of Glasgow and Visiting Research Scholar at Harvard Medical School. Scientific AI agents, scientific foundation models, and computational biology.">
   <meta name="theme-color" content="#f0eee6">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Zhaohan Meng - Homepage">
-  <meta property="og:description" content="Scientific AI agents, scientific foundation models, and computational biology.">
+  <meta data-i18n-content="page.title" property="og:title" content="Zhaohan Meng - Homepage">
+  <meta data-i18n-content="page.summary" property="og:description" content="Scientific AI agents, scientific foundation models, and computational biology.">
   <meta property="og:url" content="https://zhaohanm.github.io/">
   <meta property="og:image" content="https://zhaohanm.github.io/assets/avatar.png">
   <link rel="canonical" href="https://zhaohanm.github.io/">
@@ -17,60 +17,66 @@
   <script src="assets/site.js" defer></script>
 </head>
 <body>
-  <a class="skip-link" href="#about-me">Skip to content</a>
+  <a data-i18n="skip" class="skip-link" href="#about-me">Skip to content</a>
   <header class="masthead">
-    <nav class="navigation" aria-label="Main navigation">
+    <nav data-i18n-aria-label="navigation" class="navigation" aria-label="Main navigation">
       <a class="site-title" href="#about-me">Zhaohan Meng</a>
-      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation-links" aria-label="Open navigation"><span></span><span></span><span></span></button>
+      <div class="header-actions">
+        <button class="language-toggle" type="button" lang="zh-CN" aria-label="切换为中文" hidden>中文</button>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation-links" aria-label="Open navigation"><span></span><span></span><span></span></button>
+      </div>
       <div class="navigation-links" id="navigation-links">
-        <a href="#about-me">About</a>
-        <a href="#news">News</a>
-        <a href="#publications">Publications</a>
-        <a href="#research-experience">Experience</a>
-        <a href="#education">Education</a>
-        <a href="#honors">Honours</a>
-        <a href="#community">Community</a>
-        <a href="#mentoring">Mentoring</a>
-        <a href="#service">Service</a>
+        <a data-i18n="nav.about" href="#about-me">About</a>
+        <a data-i18n="nav.news" href="#news">News</a>
+        <a data-i18n="nav.publications" href="#publications">Publications</a>
+        <a data-i18n="nav.experience" href="#research-experience">Experience</a>
+        <a data-i18n="nav.education" href="#education">Education</a>
+        <a data-i18n="nav.honors" href="#honors">Honours</a>
+        <a data-i18n="nav.community" href="#community">Community</a>
+        <a data-i18n="nav.mentoring" href="#mentoring">Mentoring</a>
+        <a data-i18n="nav.service" href="#service">Service</a>
       </div>
     </nav>
   </header>
   <div class="layout">
-    <aside class="profile" aria-label="Personal information">
+    <aside data-i18n-aria-label="profile" class="profile" aria-label="Personal information">
       <img class="avatar" src="assets/avatar.png" alt="Zhaohan Meng" width="175" height="175">
       <div class="profile-heading">
         <h1>Zhaohan Meng</h1>
-        <p class="affiliation">University of Glasgow</p>
-        <p class="position">PhD Candidate<br>Visiting Research Scholar<br>Harvard Medical School</p>
-        <a class="cv-button" href="assets/Zhaohan_Meng_CV.pdf" download="Zhaohan_Meng_CV.pdf"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M12 3v12m-4-4 4 4 4-4M5 16v5h14v-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Download CV</a>
+        <p data-i18n="affiliation" class="affiliation">University of Glasgow</p>
+        <p data-i18n="position" class="position">PhD Candidate<br>Visiting Research Scholar<br>Harvard Medical School</p>
+        <a class="cv-button" href="assets/Zhaohan_Meng_CV.pdf" download="Zhaohan_Meng_CV.pdf"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M12 3v12m-4-4 4 4 4-4M5 16v5h14v-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-i18n="cv">Download CV</span></a>
       </div>
       <ul class="profile-links">
-        <li><span class="icon" aria-hidden="true">⌖</span><span>Glasgow, UK / Boston, USA</span></li>
-        <li><span class="icon" aria-hidden="true">✉</span><a href="mailto:zmeng3@bwh.harvard.edu">Email</a></li>
-        <li><span class="icon scholar" aria-hidden="true">▰</span><a href="https://scholar.google.com/citations?user=gM9yaCkAAAAJ&amp;hl=en">Google Scholar</a></li>
+        <li><span class="icon" aria-hidden="true">⌖</span><span data-i18n="location">Glasgow, UK / Boston, USA</span></li>
+        <li><span class="icon" aria-hidden="true">✉</span><a data-i18n="email" href="mailto:zmeng3@bwh.harvard.edu">Email</a></li>
+        <li><span class="icon scholar" aria-hidden="true">▰</span><a data-i18n="scholar" href="https://scholar.google.com/citations?user=gM9yaCkAAAAJ&amp;hl=en">Google Scholar</a></li>
         <li><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.86c-2.78.6-3.37-1.18-3.37-1.18-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02A9.6 9.6 0 0 1 12 6.82c.85 0 1.7.11 2.5.34 1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.94.36.31.68.92.68 1.85v2.75c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg><a href="https://github.com/ZhaohanM">GitHub</a></li>
         <li><span class="icon" aria-hidden="true">🤗</span><a href="https://huggingface.co/Zhaohan-Meng">Hugging Face</a></li>
         <li><span class="icon linkedin" aria-hidden="true">in</span><a href="https://www.linkedin.com/in/zhaohan-meng-825951279/">LinkedIn</a></li>
         <li><span class="icon" aria-hidden="true">𝕏</span><a href="https://x.com/Zhaohan_Meng">X / Twitter</a></li>
         <li><span class="icon orcid" aria-hidden="true">iD</span><a href="https://orcid.org/0009-0003-3209-7134">ORCID</a></li>
-        <li><span class="icon" aria-hidden="true">⌂</span><a href="https://www.gla.ac.uk/pgrs/zhaohanmeng/">University Profile</a></li>
+        <li><span class="icon" aria-hidden="true">⌂</span><a data-i18n="university-profile" href="https://www.gla.ac.uk/pgrs/zhaohanmeng/">University Profile</a></li>
       </ul>
     </aside>
     <main class="content" id="main-content">
-      <p class="last-updated">Last updated: <time datetime="2026-10-11">Oct 11, 2026</time></p>
-      <p class="research-tagline"><span class="tagline-full">AI-native research for scientific discovery.</span><span class="tagline-animated" aria-hidden="true"></span></p>
+      <p data-i18n="updated" class="last-updated">Last updated: <time datetime="2026-10-11">Oct 11, 2026</time></p>
+      <p class="research-tagline"><span data-i18n="tagline" class="tagline-full">AI-native research for scientific discovery.</span><span class="tagline-animated" aria-hidden="true"></span></p>
+      <div id="localized-content" data-i18n="content">
       <!-- CONTENT -->
+      </div>
     </main>
   </div>
   <footer class="footer">
     <figure class="visitor-map" aria-labelledby="visitor-map-title">
-      <figcaption id="visitor-map-title">Visitors around the world</figcaption>
-      <a class="visitor-map-link" href="https://mapmyvisitors.com/web/1c8st" aria-label="View pageview statistics and approximate visitor locations on MapMyVisitors">
-        <img src="https://mapmyvisitors.com/map.png?cl=c2c9bd&amp;w=300&amp;t=tt&amp;d=1j0-kL-QIa1lpPqwEQAnGl_YzQdYfsxSHHQzsqMMDps&amp;ct=59615d&amp;co=f0eee6" alt="World map showing pageviews and approximate visitor locations" width="300" height="158" decoding="async" referrerpolicy="strict-origin-when-cross-origin">
+      <figcaption data-i18n="visitors" id="visitor-map-title">Visitors around the world</figcaption>
+      <a data-i18n-aria-label="visitors-link" class="visitor-map-link" href="https://mapmyvisitors.com/web/1c8st" aria-label="View pageview statistics and approximate visitor locations on MapMyVisitors">
+        <img data-i18n-alt="visitors-image" src="https://mapmyvisitors.com/map.png?cl=c2c9bd&amp;w=300&amp;t=tt&amp;d=1j0-kL-QIa1lpPqwEQAnGl_YzQdYfsxSHHQzsqMMDps&amp;ct=59615d&amp;co=f0eee6" alt="World map showing pageviews and approximate visitor locations" width="300" height="158" decoding="async" referrerpolicy="strict-origin-when-cross-origin">
       </a>
-      <p class="visitor-map-note">Pageviews · approximate locations · <a href="https://mapmyvisitors.com/b/policy">Privacy</a></p>
+      <p data-i18n="visitors-note" class="visitor-map-note">Pageviews · approximate locations · <a href="https://mapmyvisitors.com/b/policy">Privacy</a></p>
     </figure>
-    <p>© 2026 Zhaohan Meng. <a href="https://github.com/ZhaohanM/zhaohanm.github.io">Website source</a>.</p>
+    <p>© 2026 Zhaohan Meng. <a data-i18n="source" href="https://github.com/ZhaohanM/zhaohanm.github.io">Website source</a>.</p>
   </footer>
+  <script id="translations" type="application/json"><!-- TRANSLATIONS --></script>
 </body>
 </html>
