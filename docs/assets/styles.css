@@ -70,7 +70,7 @@ li ul { margin: 6px 0 13px; padding-left: 23px; }
 .paper-links a:hover { border-color: var(--link); background: rgba(34,75,141,.06); }
 .news-list .date { font-size: 13px; font-style: normal; font-variant-numeric: tabular-nums; }
 .date { font-style: italic; color: #596168; }
-.footer { margin-top: 42px; padding: 18px 0 0; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; }
+.footer { max-width: 1200px; margin: 0 auto; padding: 28px 24px 24px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; text-align: center; }
 .footer p { margin: 0 0 5px; }
 .visitor-map { width: 300px; max-width: 100%; margin: 8px auto 26px; text-align: center; }
 .visitor-map figcaption { margin-bottom: 12px; color: #536053; font: 500 18px/1.4 Georgia, "Times New Roman", serif; }
@@ -114,7 +114,7 @@ li ul { margin: 6px 0 13px; padding-left: 23px; }
   section + section { margin-top: 25px; }
   .publication { margin-bottom: 23px; }
   .paper-links a { padding: 5px 10px; }
-  .footer { margin-top: 30px; }
+  .footer { padding: 24px 20px 20px; }
 }
 @media (max-width: 360px) {
   .profile { grid-template-columns: 88px minmax(0,1fr); column-gap: 16px; }
