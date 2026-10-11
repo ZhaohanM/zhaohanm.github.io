@@ -33,7 +33,7 @@ def main():
     checker.feed(page)
     assert len(checker.ids) == len(set(checker.ids)), "Duplicate section IDs"
     assert set(checker.anchors) <= set(checker.ids), "Navigation has missing targets"
-    for forbidden in ("YOUR_EMAIL", "example.com", "mapmyvisitors.com", "googletagmanager.com"):
+    for forbidden in ("YOUR_EMAIL", "example.com", "googletagmanager.com"):
         assert forbidden not in page, f"Unexpected template content: {forbidden}"
     output = ROOT / "docs"
     output.mkdir(exist_ok=True)

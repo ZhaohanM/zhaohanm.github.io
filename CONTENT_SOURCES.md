@@ -47,3 +47,7 @@ The user-provided CV identifies a biomedical paper curation contribution to Awes
 ## Biography and timeline
 
 The biography is a single concise paragraph based on the user-provided CV and public profiles. At the user’s request, the repeated research summary was removed; detailed research interests and education remain in their dedicated sections. The July 2026 news item derives from the CV's stated visiting start date. The thesis wording follows the CV rather than the older research title on the university profile. Supervisor and laboratory links are those embedded in the CV; their names and relationships are not inferred from external affiliations.
+
+## Visitor map
+
+On 11 October 2026, the owner approved a MapMyVisitors footer widget after being informed that the third-party service processes visitor IP addresses to estimate geographic locations. The owner completed the provider account setup for this homepage. The image embed and counter identifier come from that account's widget generator, with the existing beige background and muted green map colors. The counter is labelled as pageviews, not unique people; locations are approximate. The image loads with the page so that visits are not limited to people who scroll to the footer. The provider's privacy policy is linked next to the map.

@@ -10,6 +10,7 @@ A lightweight academic homepage for https://zhaohanm.github.io/.
 - `assets/Zhaohan_Meng_CV.pdf`: downloadable CV; replace this file when the CV is updated.
 - `assets/styles.css`: desktop and mobile styling.
 - `assets/site.js`: navigation and the introductory text animation.
+- The footer uses the homepage's MapMyVisitors image widget to display pageviews and approximate visitor locations; its embed URL is in `template.html`.
 
 After making changes, generate the published files:
 

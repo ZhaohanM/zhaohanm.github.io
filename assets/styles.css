@@ -72,6 +72,12 @@ li ul { margin: 6px 0 13px; padding-left: 23px; }
 .date { font-style: italic; color: #596168; }
 .footer { margin-top: 42px; padding: 18px 0 0; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; }
 .footer p { margin: 0 0 5px; }
+.visitor-map { width: 300px; max-width: 100%; margin: 8px auto 26px; text-align: center; }
+.visitor-map figcaption { margin-bottom: 12px; color: #536053; font: 500 18px/1.4 Georgia, "Times New Roman", serif; }
+.visitor-map-link { display: block; line-height: 0; border-radius: 4px; }
+.visitor-map img { display: block; width: 100%; height: auto; }
+.footer .visitor-map-note { margin-top: 9px; font-size: 11px; line-height: 1.6; }
+.visitor-map-note a { color: inherit; }
 @media (min-width: 1450px) { .layout { padding-top: 22px; } }
 @media (max-width: 1150px) {
   .navigation { grid-template-columns: 205px minmax(0,1fr); gap: 30px; }
