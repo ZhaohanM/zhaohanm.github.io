@@ -55,3 +55,7 @@ On 11 October 2026, the owner approved a MapMyVisitors footer widget after being
 ## Language versions
 
 On 11 October 2026, the owner requested an English/Chinese language switch. The Chinese version translates the existing verified English content without adding biographical claims. Personal names retain their supplied Romanized spelling; publication titles, author lists, and thesis titles retain their original English. Dates, qualifications, funding amounts, links, and planned/expected timeline labels are preserved. The original downloadable CV and the third-party map image are unchanged.
+
+## External PhD supervision — 13 October 2026
+
+The owner explicitly identified Prof. Zaiqiao Meng (University of Cambridge) and Dr. Hao Xu (Harvard University) as external PhD supervisors. These relationships and affiliations are added to the English and Chinese biography and PhD education entry using the existing profile links. The Glasgow supervisors and the separate Harvard visiting-research appointment are retained.
